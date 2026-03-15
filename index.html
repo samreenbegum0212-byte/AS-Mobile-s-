@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, init-scale=1.0">
+    <title>AS Mobile Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to AS Mobile Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#cart">Cart</a></li>
+                <li><a href="#payment">Payment</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="product">
+                <h3>Product 1</h3>
+                <p>Description of Product 1</p>
+                <span>$199.99</span>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <h3>Product 2</h3>
+                <p>Description of Product 2</p>
+                <span>$299.99</span>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+        <section id="cart">
+            <h2>Your Cart</h2>
+            <p>Cart is Empty</p>
+        </section>
+        <section id="payment">
+            <h2>Checkout</h2>
+            <form>
+                <label for="card-number">Card Number:</label>
+                <input type="text" id="card-number" name="card-number" required>
+                <label for="exp-date">Expiry Date:</label>
+                <input type="text" id="exp-date" name="exp-date" required>
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required>
+                <button type="submit">Pay Now</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 AS Mobile. All rights reserved.</p>
+    </footer>
+</body>
+</html>
